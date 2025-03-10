@@ -1,0 +1,184 @@
+/* Global Styles */
+body {
+    font-family: 'Merriweather', serif; /* Classic font for traditional feel */
+    background-color: #fff8e1; /* Soft cream background for spiritual warmth */
+    color: #5a3d2b; /* Earthy brown text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 5px solid #d4a373;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-shadow: 3px 3px #d4a373;
+    color: #ffd700; /* Golden color for divinity */
+}
+
+header p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: #fbe4a6; /* Light gold accent for spiritual text */
+}
+
+/* Footer */
+footer {
+    background-color: #8b4513;
+    color: #fff8e1;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    border-top: 5px solid #d4a373;
+}
+
+/* Blog Content */
+.blog-content {
+    padding: 20px;
+    margin: 20px auto;
+    background: #ffffff;
+    border: 2px solid #d4a373;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.blog-content h2 {
+    font-size: 2rem;
+    color: #8b4513; /* Deep brown for headings */
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 8px;
+}
+
+.blog-content h3 {
+    font-size: 1.5rem;
+    color: #5a3d2b;
+    margin-top: 25px;
+}
+
+.blog-content p, .blog-content ul {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.blog-content ul {
+    padding-left: 25px;
+    list-style: disc;
+}
+
+.blog-content ul li {
+    margin-bottom: 10px;
+}
+
+.blog-content a {
+    color: #8b4513;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-content a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 6px solid #d4a373;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.btn {
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ffd700;
+    color: #5a3d2b;
+}
+
+/* Page-Specific Styles */
+
+/* Index Page */
+header.index-header {
+    background-image: url('images/index_banner.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* History Page */
+header.history-header {
+    background-color: #ffd700; /* Golden-yellow header for spiritual history */
+    color: #5a3d2b; /* Brown text for tradition */
+}
+
+.blog-content.history-content {
+    background: #fffbe6; /* Soft beige */
+    border: 3px solid #8b4513;
+}
+
+/* Architecture Page */
+header.architecture-header {
+    background-image: url('images/architecture_banner.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    color: #fbe4a6;
+    text-shadow: 2px 2px 4px #8b4513;
+}
+
+.blog-content.architecture-content {
+    background: #fff7d4; /* Light golden cream for architectural elegance */
+    border: 3px solid #8b4513;
+}
+
+/* Exhibits Page */
+header.exhibits-header {
+    background-color: #8b5e3c; /* Warm brown to symbolize cultural heritage */
+    color: #fff8e1;
+}
+
+.blog-content.exhibits-content {
+    background: #fffaf0; /* Creamy white for exhibit highlights */
+    border: 3px solid #d4a373;
+}
+
+/* Significance Page */
+header.significance-header {
+    background-color: #956c41; /* Deep brown for significance of spirituality */
+    color: #ffd700;
+}
+
+.blog-content.significance-content {
+    background: #fff8e7; /* Subtle beige for sacred discussions */
+    border: 3px solid #8b4513;
+}
+
+/* Visitor Tips Page */
+header.visitor-header {
+    background-image: url('images/visitor_banner.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+}
+
+.blog-content.visitor-content {
+    background: #fdf7ec; /* Light cream for helpfulness */
+    border: 3px solid #d4a373;
+}
